@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Wei">
+        <title>WeiChangResume</title>
+        <style>
+            .title {
+                background-color: black; 
+                padding: 10px; 
+                position:relative; 
+                font-size: 30px;
+            }
+            .title h1 {
+                color:white; 
+                text-align:center;
+            }
+            #all_padding {
+                padding-left:100px;
+                padding-right:100px; 
+                padding-top:50px; 
+                padding-bottom:50px; 
+                position: relative;
+            }
+            li {
+                list-style-type: none;
+                padding: 5px;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center; 
+                align-items: center;
+            }
+            .container div {
+                
+                width:500px;
+            }
+            .need_padding {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            hr {
+                border-color:rgb(117, 204, 175);
+                color: rgb(117, 204, 175)d;
+            }
+            .line {
+                height: 2px;
+                background-color: rgb(117, 204, 175);
+            }
+            #first_part {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                padding-bottom: 50px;
+                position: relative;
+            }
+            .content1 {
+                padding: 10px;
+                width: 500px;
+            }
+            #self_photo{
+                position: relative;
+                left: 100px;
+            }
+            #big_name { 
+                position: relative;
+                top: 100px;
+            }
+            #Gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                padding-bottom: 50px;
+                position: relative;
+            }
+            .exhibit {
+                padding: 10px;
+                width: 500px;
+            }
+            #Gallery div img {
+                height: 500px;
+                padding-top: 20px;
+            }
+            #SNS {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                position: relative;
+                margin: auto;
+            }
+            #SNS_inner {
+                margin: auto;
+                width: 180px;
+                height: 60px;
+                background-color: lightgray;
+                opacity: 1;
+                border-radius: 100px;
+                
+            }
+            .SNS_photo {
+                height: 30px;
+                opacity: 1;
+                padding: 0px;
+                position: relative;
+                bottom: 0px;
+                right:11px;
+
+            }
+            .SNS_photo:hover {
+                opacity: 0.5;
+            }
+
+            #SNS_list {
+                display: inline-block;
+            }
+            #SNS_list li{
+                display: inline;
+            }
+            #contact {
+                text-align: center;
+            }
+            body {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            h2 {
+                font-size:30px;
+            }
+            div { 
+                word-wrap: break-word;
+                word-break: normal; 
+            }
+        </style>
+    </head>
+    
+    <body>
+
+        <div class="title">
+            <h1>Wei Chang Resume</h1>
+        </div>
+
+        <div id="all_padding">
+            
+            <div class="content need_padding" id="first_part">
+                <div class="content1" id="self_photo">
+                    <img src="https://i.imgur.com/sheIW1u.jpg" style="height:350px; "/>
+                </div> 
+                <div class="content1" id="big_name" >
+                    <div class="content1_1"><h2>張蔚桓</h2></div>
+                    <div class="content1_1 line"></div>
+                    <div class="content1_1" style="text-align: right;"><h2>Wei Chang</h2></div>
+                </div>
+            </div>
+            
+            <div class="container need_padding">
+                <div class="paragraph"><h2>學經歷</h2></div>
+                <div class="line"></div>
+                <div>
+                    <ul>
+                        <li>新北市立秀山國小</li>
+                        <li>Gibson Elemenatary School</li>
+                        <li>台北市立景興國中</li>
+                        <li>台北市立成功高中</li>
+                        <li>恆康工程顧問實習</li>
+                        <li>國立清華大學材料工程學系</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container need_padding">
+                <div class="paragraph"><h2>技能</h2></div>
+                <div class="line"></div>
+                <div>
+                    <ul>
+                        <li>Basic Python</li>
+                        <li>Basic Html and CSS</li>
+                        <li>雅思IELTS英檢7.5分</li>
+                        <li>中華民國象棋二段棋士</li>
+                        <li>低音號11年演奏經歷</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container need_padding">
+                <div class="paragraph"><h2>團隊經歷</h2></div>
+                <div class="line"></div>
+                <div>
+                    <ul>
+                        <li>新北市立秀山國小管樂團</li>
+                        <li>North Delta Cubs(U13 棒球隊)</li>
+                        <li>台北市立景興國中管樂團</li>
+                        <li>台北市立成功高中管樂團</li>
+                        <li>台北市立成功高中銅管五重奏</li>
+                        <li>台北市立成功高中打擊樂團</li>
+                        <li>國立清華大學棒球隊</li>
+                        <li>國立清華大學管樂團</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container need_padding">
+                <div class="paragraph"><h2>比賽經歷</h2></div>
+                <div class="line"></div>
+                <div>
+                    <ul>
+                        <li>107春暉杯象棋賽高中組亞軍</li>
+                        <li>108台北市學生音樂比賽西區管樂合奏特優第一</li>
+                        <li>108台北市學生音樂比賽西區銅管五重奏優等第一</li>
+                        <li>109台北市學生音樂比賽西區管樂合奏特優第一</li>
+                        <li>110大專盃棒球賽一般組冠軍</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="need_padding">
+                <div class="paragraph"><h2>Gallery</h2></div>
+                <div class="line"></div>
+                <div id="Gallery">
+                    <div id="exhibit">
+                        <div>
+                            <a href="https://i.imgur.com/F9mp2ck.jpg"><img src="https://i.imgur.com/F9mp2ck.jpg" /></a>
+                        </div>
+                        <div>
+                            <p>與葉樹涵教授同台演出</p>
+                        </div>
+                    </div>
+                    <div id="exhibit">
+                        <div>
+                            <a href="https://img.onl/kjABYz"><img src="https://img.onl/kjABYz" /></a>
+                        </div>
+                        <div>
+                            <p>參加清大重點賽事梅竹棒球賽</p>
+                        </div>
+                    </div>
+                    <div id="exhibit">
+                        <div>
+                            <a href="https://i.imgur.com/BbBk4vU.jpg"><img src="https://i.imgur.com/BbBk4vU.jpg" /></a>
+                        </div>
+                        <div>
+                            <p>於大孝門廣場藝文表演出演</p>
+                        </div>
+                    </div>
+                    <div id="exhibit">
+                        <div>
+                            <a href="https://i.imgur.com/xIBGofp.jpg"><img src="https://i.imgur.com/xIBGofp.jpg" /></a>
+                        </div>
+                        <div>
+                            <p>獲春暉杯象棋賽高中組亞軍</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container need_padding">
+                <div class="paragraph"><h2>影片</h2></div>
+                <div class="line"></div>
+                <div>
+                    <iframe width="500px" height="315" src="https://www.youtube.com/embed/S4-GmVkdhBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="padding-top:20px;" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <P>銅管五重奏表演</p>
+                </div>
+            </div>
+            
+            <div id="SNS">
+                <div id="SNS_inner">
+                    <ul id="SNS_list">
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100006823145784"><img class="SNS_photo" src="https://i.imgur.com/uQNCJsM.png" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/ckcb65_wei/"><img class="SNS_photo" src="https://i.imgur.com/s6PqED9.png" /></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/miukikire"><img class="SNS_photo" src="https://i.imgur.com/sGfsF1f.png" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="contact">
+                <p>Phone:0905269605</p>
+                <p>Email:weihuanzhang0(零)@gmail.com</p>
+            </div>
+            
+        </div>
+    
+    </body>
+</html>
